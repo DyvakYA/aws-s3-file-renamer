@@ -1,0 +1,19 @@
+cloud:
+  aws:
+    credentials:
+      access-key:
+      secret-key:
+      instance-profile: false
+    region:
+      auto: true
+    stack:
+      auto: false
+app:
+  root-url: https://s3.amazonaws.com
+  bucket-name:
+  bucket-prefix:
+  first-date:
+  last-date:
+  date-formatter: dd-MM-yyyy
+  replace-value: null
+  replace-to: 313
